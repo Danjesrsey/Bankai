@@ -19,7 +19,7 @@ module.exports.run = async function({ api, event, args }) {
   const input = args.join(' ');
 
   if (!input) {
-    api.sendMessage(`oui bro je t'écoute pose ta question '`, event.threadID, event.messageID);
+    api.sendMessage(`oui bro je t'écoute pose ta question'`, event.threadID, event.messageID);
     return;
   }
   
